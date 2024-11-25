@@ -1,0 +1,375 @@
+* {
+  transition: 0.5s;
+}
+body {
+  font-family: "Times New Roman", serif;
+}
+
+.paper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 20px 20px 70px;
+}
+
+.firsthalf {
+  text-align: center;
+
+  margin-bottom: 100px;
+  h1 {
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 80px;
+  }
+}
+
+
+
+.myface {
+  width: 60%;
+}
+
+.text {
+  font-size: 150%;
+}
+
+/*secondhalf*/
+.aboutme {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutme img {
+  width: 20%;
+  filter: invert(0);
+  margin-top: 10px;
+}
+
+.aboutmestick {
+  width: 80%;
+
+  color: black;
+}
+
+.aboutmestick h2 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.aboutme > p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.education {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.educationstick {
+  width: 80%;
+
+  color: black;
+  line-height: 10px;
+}
+
+.educationstick h2 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.educationstick img {
+  width: 30%;
+  filter: invert(1);
+}
+
+.educationtext {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workExpAndAff {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.workExpAndAff img {
+  width: 20%;
+  filter: invert(1);
+  margin-top: 10px;
+}
+
+.workExpAndAffstick {
+  width: 80%;
+
+  color: black;
+}
+
+.workExpAndAffstick h2 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.workExpAndAfftext {
+  font-weight: bold;
+  text-align: center;
+}
+
+.worktitle {
+  font-size: 40px;
+}
+
+.worksubtext {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.skills {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills img {
+  width: 20%;
+  filter: invert(1);
+  margin-top: 10px;
+}
+
+.skillsstick {
+  width: 80%;
+
+  color: black;
+}
+
+.skillsstick h2 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.skills > p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact img {
+  width: 20%;
+  filter: invert(0);
+  margin-top: 10px;
+}
+
+.contactstick {
+  width: 80%;
+
+  color: black;
+}
+
+.contactstick h2 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.contact > p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.characterreferrence {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  margin-top: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.characterreferrencestick {
+  width: 80%;
+  color: black;
+  margin-top: 20%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.characterreferrencestick h2 {
+  font-size: 200%;
+  font-weight: bold;
+  color: black;
+}
+
+.characterreferrence > p {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .text {
+    padding-inline: 1em;
+    h1{
+      font-size: 8vmin;
+    }
+    h2{
+      font-size: 5vmin;
+    }
+    
+  }
+
+  .paper {
+    overflow: hidden;
+  }
+
+  .aboutme,
+  .education,
+  .workExpAndAff,
+  .skills,
+  .contact,
+  .characterreferrence {
+    font-size: 6vmin;
+    padding-inline: 1em;
+  }
+
+  .worktitle,
+  .worksubtext,
+  .text h1 {
+    font-size: 9vmin;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* .contents {
+        position: relative;
+        background-color: red;
+        width: 100%;
+    }
+
+    .myface {
+        width: 50vmin;
+    }
+
+    .firsthalf {
+        position: absolute;
+        left: 0em;
+        width: 60vmin;
+    }
+
+    .secondhalf {
+        position: absolute;
+        width: 370px;
+        right: 0;
+        top: 0;
+        width: 66vmin;
+
+    }
+
+    .thirdhalf {
+        width: 60vmin;
+        position: relative;
+        left: 0em;
+        bottom: -63em;
+        z-index: 10;
+    } */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .paper {
+      width: fit-content;
+      .contents {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 189vmin;
+        padding: 8vmin;
+        .firsthalf,
+        .secondhalf {
+          width: 90vmin;
+          margin-left: unset;
+          margin-right: unset;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          height: fit-content;
+        }
+        .firsthalf {
+          h1 {
+            font-size: 7vmin;
+          }
+
+          h2 {
+            font-size: 4vmin;
+          }
+          .myface{
+            width: 50vmin;
+          }
+        }
+        .secondhalf {
+          .characterreferrence{
+            p {
+              font-size: 4vmin;
+            }
+          }
+          .educationstick{
+            width: 37vmin;
+
+            h2 {
+              font-size: 8vmin;
+            }
+          }
+        }
+        .contact,
+        .skills,
+        .aboutme,
+        .education,
+        .workExpAndAff,
+        .characterreferrence {
+          h2 {
+            font-size: 7vmin;
+          }
+          p {
+            font-size: 3vmin;
+          }
+        }
+      }
+    }
+  }
+}
